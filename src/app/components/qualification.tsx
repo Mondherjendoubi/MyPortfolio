@@ -59,14 +59,14 @@ const Qualification = () => {
               October 2019 - Sept 2023
             </h3>
             <p className="text-sm leading-snug tracking-wide text-gray-900 text-opacity-100">
-              I earned my Bachelor's in Computer Science from the University of
-              Braunschweig in 2023, focusing on backend projects and developing
-              strong skills in programming, algorithms, and software
-              development. My thesis on natural language processing deepened my
-              Python and TensorFlow expertise, enhancing my data analysis and
-              machine learning abilities. I am highly motivated to continuously
-              improve my skills and stay updated with the latest industry trends
-              and technologies.
+              I earned my Bachelor&apos;s in Computer Science from the
+              University of Braunschweig in 2023, focusing on backend projects
+              and developing strong skills in programming, algorithms, and
+              software development. My thesis on natural language processing
+              deepened my Python and TensorFlow expertise, enhancing my data
+              analysis and machine learning abilities. I am highly motivated to
+              continuously improve my skills and stay updated with the latest
+              industry trends and technologies.
             </p>
           </div>
         </div>

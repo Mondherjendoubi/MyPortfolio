@@ -8,13 +8,13 @@ const Services = () => {
         </div>
 
         <div className="flex justify-center">
-          <p className="w-4/5 text-center">
-            I'm Mondher Jandoubi, a 25-year-old with a budding career in
-            Computer Science. I graduated with a Bachelor's degree in Computer
-            Science from the Technical University of Braunschweig. My enthusiasm
-            for learning and coding knows no bounds, and I treat it as both a
-            profession and a hobby. In addition to my tech interests, I love
-            staying active, exploring Berlin, and meeting new people. I
+          <p className="text-sm leading-snug tracking-wide text-gray-900 text-opacity-100">
+            I&apos;m Mondher Jandoubi, a 25-year-old with a budding career in
+            Computer Science. I graduated with a Bachelor&apos;s degree in
+            Computer Science from the Technical University of Braunschweig. My
+            enthusiasm for learning and coding knows no bounds, and I treat it
+            as both a profession and a hobby. In addition to my tech interests,
+            I love staying active, exploring Berlin, and meeting new people. I
             relocated to Berlin six months ago to embark on my first
             professional role.
           </p>

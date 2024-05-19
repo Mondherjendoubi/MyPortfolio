@@ -15,11 +15,11 @@ const Introduction = () => {
         </div>
 
         <div className="flex text-xl w-3/4 ">
-          I'm a full-fledged code-loving, bug-squashing, feature-building nerd,
-          and I wouldn't have it any other way. While others might find joy in
-          sports or binge-watching TV shows, I get my kicks from clean code,
-          efficient algorithms, and the sweet, sweet sound of a build passing on
-          the first try.
+          I&apos;m a full-fledged code-loving, bug-squashing, feature-building
+          nerd, and I wouldn&apos;t have it any other way. While others might
+          find joy in sports or binge-watching TV shows, I get my kicks from
+          clean code, efficient algorithms, and the sweet, sweet sound of a
+          build passing on the first try.
         </div>
         <div className="flex flex-col pa-1 gap-3">
           <div className="flex flex-row">
@@ -56,10 +56,7 @@ const Introduction = () => {
                 className="text-black rounded-3xl bg-gray-300  hover:bg-gray-400 focus:ring-4 focus:outline-none focus:ring-black font-medium rounded-lg text-sm p-2.5 text-center inline-flex items-center me-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
               >
                 <svg
-                  className="w-5 h-5 "
-                  aria-hidden="true"
-                  fill="currentColor"
-                  viewBox="0 0 8 19"
+                  className="w-5 h-5"
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 496 512"
                 >

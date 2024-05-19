@@ -1,5 +1,5 @@
 "use client"; // This is a client component 👈🏽
-import React from "react";
+import React, { useEffect } from "react";
 
 const scrollTo = (position: number) => {
   window.scrollTo({
@@ -35,7 +35,7 @@ const Navbar: React.FC = () => {
               </li>
               <li>
                 <button
-                  onClick={() => scrollTo(400)}
+                  onClick={() => scrollTo(749)}
                   className="text-gray-900 dark:text-white hover:underline text-2xl font-bold"
                 >
                   About me
@@ -43,7 +43,7 @@ const Navbar: React.FC = () => {
               </li>
               <li>
                 <button
-                  onClick={() => scrollTo(1000)}
+                  onClick={() => scrollTo(1349)}
                   className="text-gray-900 dark:text-white hover:underline text-2xl font-bold"
                 >
                   Skills
@@ -51,7 +51,7 @@ const Navbar: React.FC = () => {
               </li>
               <li>
                 <button
-                  onClick={() => scrollTo(1800)}
+                  onClick={() => scrollTo(2217)}
                   className="text-gray-900 dark:text-white hover:underline text-2xl font-bold"
                 >
                   Qualification
