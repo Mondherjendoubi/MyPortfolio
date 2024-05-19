@@ -1,3 +1,4 @@
+import untitledDesign from "../public/Untitled design (5).png";
 const Introduction = () => {
   return (
     <div className="flex  flex-row justify-center ">
@@ -106,7 +107,7 @@ const Introduction = () => {
       <img
         height="600"
         width="600"
-        src="/Untitled design (5).png"
+        src="/portfolio.png"
         alt="image description"
       />
     </div>
