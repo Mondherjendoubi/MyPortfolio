@@ -62,9 +62,17 @@ const Chat = () => {
 
         let newMessages = messages.data
           .map((message) => {
+            const contentBlock = message.content[0];
+            if ("text" in contentBlock) {
+              return {
+                role: message.role,
+                content: contentBlock.text.value,
+              };
+            }
+            // Handle other content types if needed
             return {
               role: message.role,
-              content: message.content[0].text.value,
+              content: "Unsupported content type", // or handle it appropriately
             };
           })
           .reverse();
