@@ -107,7 +107,7 @@ const Introduction = () => {
       <img
         height="600"
         width="600"
-        src="../../public/portfolio.png"
+        src="./portfolio.png"
         alt="image description"
       />
     </div>
