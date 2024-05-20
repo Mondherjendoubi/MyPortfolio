@@ -16,7 +16,7 @@ const Chat = () => {
   );
   const [isChatVisible, setIsChatVisible] = useState(false);
 
-  const assistantId = process.env.ASSISTANT_ID;
+  const assistantId = process.env.NEXT_PUBLIC_ASSISTANT_ID;
 
   useEffect(() => {
     const createThread = async () => {
