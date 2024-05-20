@@ -5,6 +5,7 @@ import Aboutme from "./components/aboutme";
 import Services from "./components/services";
 import Qualification from "./components/qualification";
 import Footer from "./components/footer";
+import Chat from "./components/chat";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <Aboutme />
       <Services />
       <Qualification />
+      <Chat />
       <Footer />
     </div>
   );
