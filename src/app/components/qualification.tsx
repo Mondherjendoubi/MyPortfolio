@@ -1,7 +1,12 @@
 const Qualification = () => {
   return (
-    <div className="container flex flex-col  mx-auto w-full h-full">
-      <div className="flex p-10  gap-20 justify-around">
+    <div className="container flex flex-col mx-auto w-full h-full p-4 md:p-10">
+      {/* Header section - only shown on medium and larger screens */}
+
+      <div className="mx-auto my-10 text-4xl md:text-2xl font-bold">
+        Qualifikation
+      </div>
+      <div className="hidden md:flex flex-row gap-8 md:gap-20 justify-around md:mb-4">
         <div className="flex flex-row gap-4 items-center">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -9,7 +14,7 @@ const Qualification = () => {
             viewBox="0 0 24 24"
             strokeWidth={1.5}
             stroke="currentColor"
-            className="w-12 h-12"
+            className="w-8 h-8 md:w-12 md:h-12"
           >
             <path
               strokeLinecap="round"
@@ -18,7 +23,7 @@ const Qualification = () => {
             />
           </svg>
 
-          <div className="text-bold j text-3xl">Work</div>
+          <div className="font-bold text-xl md:text-3xl">Work</div>
         </div>
         <div className="flex flex-row gap-4 items-center">
           <svg
@@ -27,7 +32,7 @@ const Qualification = () => {
             viewBox="0 0 24 24"
             strokeWidth={1.5}
             stroke="currentColor"
-            className="w-12 h-12"
+            className="w-8 h-8 md:w-12 md:h-12"
           >
             <path
               strokeLinecap="round"
@@ -36,29 +41,30 @@ const Qualification = () => {
             />
           </svg>
 
-          <div className="text-black j text-3xl">Education</div>
+          <div className="text-black text-xl md:text-3xl">Education</div>
         </div>
       </div>
 
-      <div className="relative wrap overflow-hidden p-10  h-full">
-        <div className="left-1/2 border-2-2 absolute border-opacity-20 border-gray-700 h-full border"></div>
+      <div className="relative wrap overflow-hidden p-4 md:p-10 h-full">
+        {/* Timeline line - only shown on medium and larger screens */}
+        <div className="left-1/2 border-2 absolute border-opacity-20 border-gray-700 h-full hidden md:block"></div>
 
-        <div className="mb-8 flex justify-between items-center w-full right-timeline">
-          <div className="order-1 w-5/12"></div>
+        <div className="mb-8 flex flex-col md:flex-row justify-between items-center w-full right-timeline">
+          <div className="order-1 w-full md:w-5/12"></div>
           <div className="z-20 flex items-center order-1 bg-gray-800 shadow-xl w-8 h-8 rounded-full">
             <h1 className="mx-auto font-semibold text-lg text-white">1</h1>
           </div>
-          <div className="order-1 bg-white rounded-lg shadow-2xl w-5/12 px-6 py-4">
-            <h3 className=" font-bold text-gray-800 text-xl">
+          <div className="order-1 bg-white rounded-lg shadow-2xl w-full md:w-5/12 px-6 py-4">
+            <h3 className="font-bold text-gray-800 text-lg md:text-xl">
               Bachelor computer science degree
             </h3>
-            <h3 className=" font-bold text-gray-600 text-l">
+            <h3 className="font-bold text-gray-600 text-md md:text-lg">
               Technische Universität Braunschweig
             </h3>
-            <h3 className=" font-bold text-gray-600 text-l">
+            <h3 className="font-bold text-gray-600 text-md md:text-lg">
               October 2019 - Sept 2023
             </h3>
-            <p className="text-sm leading-snug tracking-wide text-gray-900 text-opacity-100">
+            <p className="text-sm md:text-base leading-snug tracking-wide text-gray-900 text-opacity-100">
               I earned my Bachelor&apos;s in Computer Science from the
               University of Braunschweig in 2023, focusing on backend projects
               and developing strong skills in programming, algorithms, and
@@ -71,20 +77,22 @@ const Qualification = () => {
           </div>
         </div>
 
-        <div className="mb-8 flex justify-between flex-row-reverse items-center w-full left-timeline">
-          <div className="order-1 w-5/12"></div>
-          <div className="z-20 flex items-center order-1 bg-gray-800 shadow-xl w-8 h-8 rounded-full">
+        <div className="mb-8 flex flex-col md:flex-row justify-between md:flex-row-reverse items-center w-full left-timeline">
+          <div className="order-1 w-full md:w-5/12"></div>
+          <div className="z-20 flex items-center mb-3 order-1 bg-gray-800 shadow-xl w-8 h-8 rounded-full">
             <h1 className="mx-auto text-white font-semibold text-lg">2</h1>
           </div>
-          <div className="order-1 bg-blue-400 rounded-lg shadow-xl w-5/12 px-6 py-4">
-            <h3 className=" font-bold text-white text-xl">Working Student</h3>
-            <h3 className=" font-bold text-white text-l">
+          <div className="order-1 bg-blue-400 rounded-lg shadow-xl w-full md:w-5/12 px-6 py-4">
+            <h3 className="font-bold text-white text-lg md:text-xl">
+              Working Student
+            </h3>
+            <h3 className="font-bold text-white text-md md:text-lg">
               Bundesdruckerei-Gruppe
             </h3>
-            <h3 className=" font-bold text-white text-l">
+            <h3 className="font-bold text-white text-md md:text-lg">
               Dec 2022 - Sept 2023
             </h3>
-            <p className="text-sm font-medium leading-snug tracking-wide text-white text-opacity-100">
+            <p className="text-sm md:text-base font-medium leading-snug tracking-wide text-white text-opacity-100">
               I worked as a UI Front-End Developer at Bundesdruckerei for nine
               months, developing web components and designing user-friendly,
               visually appealing interfaces. Collaborating with
@@ -96,20 +104,22 @@ const Qualification = () => {
           </div>
         </div>
 
-        <div className="mb-8 flex justify-between flex-row-reverse items-center w-full left-timeline">
-          <div className="order-1 w-5/12"></div>
-          <div className="z-20 flex items-center order-1 bg-gray-800 shadow-xl w-8 h-8 rounded-full">
+        <div className="mb-8 flex flex-col md:flex-row justify-between md:flex-row-reverse items-center w-full left-timeline">
+          <div className="order-1 w-full md:w-5/12"></div>
+          <div className="z-20 flex items-center order-1 mb-3 bg-gray-800 shadow-xl w-8 h-8 rounded-full">
             <h1 className="mx-auto text-white font-semibold text-lg">3</h1>
           </div>
-          <div className="order-1 bg-blue-400 rounded-lg shadow-xl w-5/12 px-6 py-4">
-            <h3 className=" font-bold text-white text-xl">
+          <div className="order-1 bg-blue-400 rounded-lg shadow-2xl w-full md:w-5/12 px-6 py-4">
+            <h3 className="font-bold text-white text-lg md:text-xl">
               Full Stack Developer
             </h3>
-            <h3 className=" font-bold text-white text-l">Wunschlachen</h3>
-            <h3 className=" font-bold text-white text-l">
+            <h3 className="font-bold text-white text-md md:text-lg">
+              Wunschlachen
+            </h3>
+            <h3 className="font-bold text-white text-md md:text-lg">
               November 2023 - Present
             </h3>
-            <p className="text-sm font-medium leading-snug tracking-wide text-white text-opacity-100">
+            <p className="text-sm md:text-base font-medium leading-snug tracking-wide text-white text-opacity-100">
               As a full-stack developer at Wunschlachen GmbH Dental Practice, I
               specialize in front-end development and UI design. I convert
               designs into dynamic web applications, integrating advanced
@@ -124,4 +134,5 @@ const Qualification = () => {
     </div>
   );
 };
+
 export default Qualification;

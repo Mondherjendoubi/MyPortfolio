@@ -1,29 +1,32 @@
 import untitledDesign from "../public/Untitled design (5).png";
+
 const Introduction = () => {
   return (
-    <div className="flex  flex-row justify-center ">
-      <div className="flex  w-2/4   items-start my-auto  flex-col gap-2">
-        <div className="text-3xl font-bold">Hello Im</div>
-        <div className="text-lg ml-2 font-bold text-blue-600">
+    <div className="flex flex-col md:flex-row justify-center items-center md:items-start">
+      <div className="flex w-full md:w-2/4 items-center md:items-start my-auto flex-col gap-2 p-4 md:p-0">
+        <div className="text-2xl md:text-3xl font-bold">Hello I'm</div>
+        <div className="text-lg md:text-xl font-bold text-blue-600">
           Mondher Jandoubi
         </div>
         <div className="flex flex-col">
-          <div className="text-6xl font-bold">Fullstack </div>
+          <div className="text-4xl md:text-6xl font-bold">Fullstack</div>
           <div className="flex flex-row">
-            <div className="text-6xl font-bold ml-2">developer</div>
-            <div className="text-6xl font-bold text-blue-600 ">.</div>
+            <div className="text-4xl md:text-6xl font-bold ml-2">developer</div>
+            <div className="text-4xl md:text-6xl font-bold text-blue-600">
+              .
+            </div>
           </div>
         </div>
 
-        <div className="flex text-xl w-3/4 ">
+        <div className="flex text-sm md:text-xl w-full md:w-3/4 p-2 md:p-0">
           I&apos;m a full-fledged code-loving, bug-squashing, feature-building
           nerd, and I wouldn&apos;t have it any other way. While others might
           find joy in sports or binge-watching TV shows, I get my kicks from
           clean code, efficient algorithms, and the sweet, sweet sound of a
           build passing on the first try.
         </div>
-        <div className="flex flex-col pa-1 gap-3">
-          <div className="flex flex-row">
+        <div className="flex flex-col p-1 gap-3">
+          <div className="flex flex-row space-x-2">
             <a
               href="https://www.linkedin.com/in/mondher-jandoubi-736928239/"
               target="_blank"
@@ -31,7 +34,7 @@ const Introduction = () => {
             >
               <button
                 type="button"
-                className="text-black rounded-3xl bg-gray-300  hover:bg-gray-400  focus:ring-4 focus:outline-none focus:ring-black font-medium rounded-lg text-sm p-2.5 text-center inline-flex items-center me-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+                className="text-black bg-gray-300 hover:bg-gray-400 focus:ring-4 focus:outline-none focus:ring-black font-medium rounded-lg text-sm p-2.5 text-center inline-flex items-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
               >
                 <svg
                   className="w-5 h-5"
@@ -54,7 +57,7 @@ const Introduction = () => {
             >
               <button
                 type="button"
-                className="text-black rounded-3xl bg-gray-300  hover:bg-gray-400 focus:ring-4 focus:outline-none focus:ring-black font-medium rounded-lg text-sm p-2.5 text-center inline-flex items-center me-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+                className="text-black bg-gray-300 hover:bg-gray-400 focus:ring-4 focus:outline-none focus:ring-black font-medium rounded-lg text-sm p-2.5 text-center inline-flex items-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
               >
                 <svg
                   className="w-5 h-5"
@@ -74,7 +77,7 @@ const Introduction = () => {
             >
               <button
                 type="button"
-                className="text-black rounded-3xl bg-gray-300 hover:bg-gray-400 focus:ring-4 focus:outline-none focus:ring-black font-medium rounded-lg text-sm p-2.5 text-center inline-flex items-center me-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+                className="text-black bg-gray-300 hover:bg-gray-400 focus:ring-4 focus:outline-none focus:ring-black font-medium rounded-lg text-sm p-2.5 text-center inline-flex items-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
               >
                 <svg
                   className="w-5 h-5 "
@@ -84,9 +87,9 @@ const Introduction = () => {
                   viewBox="0 0 8 19"
                 >
                   <path
-                    fill-rule="evenodd"
+                    fillRule="evenodd"
                     d="M6.135 3H8V0H6.135a4.147 4.147 0 0 0-4.142 4.142V6H0v3h2v9.938h3V9h2.021l.592-3H5V3.591A.6.6 0 0 1 5.592 3h.543Z"
-                    clip-rule="evenodd"
+                    clipRule="evenodd"
                   />
                 </svg>
                 <span className="sr-only">Icon description</span>

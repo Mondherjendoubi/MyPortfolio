@@ -9,7 +9,7 @@ import Chat from "./components/chat";
 
 export default function Home() {
   return (
-    <div className="flex w-100 bg-[white]  h-100 flex-col gap-4">
+    <div className="flex  bg-[white]  h-100 flex-col gap-4">
       <Navbar />
       <Introduction />
       <Aboutme />
