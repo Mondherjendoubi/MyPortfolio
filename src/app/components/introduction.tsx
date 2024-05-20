@@ -4,7 +4,7 @@ const Introduction = () => {
   return (
     <div className="flex flex-col md:flex-row justify-center items-center md:items-start">
       <div className="flex w-full md:w-2/4 items-center md:items-start my-auto flex-col gap-2 p-4 md:p-0">
-        <div className="text-2xl md:text-3xl font-bold">Hello I'm</div>
+        <div className="text-2xl md:text-3xl font-bold">Hello Im</div>
         <div className="text-lg md:text-xl font-bold text-blue-600">
           Mondher Jandoubi
         </div>
