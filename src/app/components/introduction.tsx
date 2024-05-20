@@ -95,7 +95,7 @@ const Introduction = () => {
           </div>
 
           <a
-            href="/MondherJandoubiCv.pdf"
+            href="./MondherJandoubiCv.pdf"
             download
             className="px-5 py-2 text-base font-medium text-center text-white bg-black rounded-lg hover:bg-gray-600 focus:ring-4 focus:outline-none "
           >
